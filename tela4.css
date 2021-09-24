@@ -38,11 +38,10 @@ main {
 }
 
 figure{
-display: flex;
-margin-block-end: 1rem;
-flex-grow: 1;
-
-
+    justify-content: center;
+    display: flex;
+    margin-block-end: 1rem;
+    flex-grow: 1;
 }
 
 .video {
@@ -75,6 +74,7 @@ h4{
 
 footer{
     display: flex;
+    font-size: 1.3rem;
     margin:1rem;
     flex-direction: row;
     justify-content: space-evenly;
@@ -85,11 +85,23 @@ a{
     margin: .5rem;
 }
 
+li{
+    margin: .5rem;
+}
+
 p{
     margin: .5rem;
 }
 
+ol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(218, 218, 218);
+}
+
 .mapa {
+    display: flex;
     max-width: 50%;
 	height: auto;
     min-width: 35%;
@@ -114,15 +126,23 @@ p{
     height: auto;
 }
 
-strong{
-    font-size: xx-large;
-}
 
 .local {
+    display: flex;
+    font-size: 1.5rem;
     flex-grow: 2;
 }
 
+.evento{
+    display: flex;
+    justify-content: left;
+    font-size: 1.5rem;
+    flex-grow: 2;
+
+}
 .icons {
+    display: flex;
+    justify-content: center;
     max-width: 50%;
 	height: auto;
 }

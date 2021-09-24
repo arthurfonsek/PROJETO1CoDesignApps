@@ -68,9 +68,10 @@ li{
 .legenda{
     display: flex;
     margin:.5rem;
+    justify-content: center;
 }
 
-hu{
+u{
     font-size: 1.5rem ;
 }
 
