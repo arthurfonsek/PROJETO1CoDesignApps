@@ -15,7 +15,16 @@ header{
     align-items: center;
     font-size: 3rem;
 }
-.Feed{
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(218, 218, 218);
+}
+
+
+
+.comunidade{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,67 +34,64 @@ header{
 
 }
 
-main {
-    display: flex;
-    flex-direction: column;
- 
-}
-
-.title{
-    display: flex;
-    font-size: 1.5rem;
-    margin: 0.5rem;
-}
 
 figure{
-display: flex;
-justify-content: center;
-background-color: rgb(218, 218, 218);
-
-}
-
-.video {
-    border: 0.4rem solid black;
-    position: relative;
-    max-width: 50%;
-    max-height: 50%;
-}
-
-ul{
+    border: 0.2rem solid black; 
     display: flex;
-    margin: .5rem;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-li{
-    display: flex;
+    align-items: center;
     flex-direction: column;
-
-
+    background-color: rgb(218, 218, 218);
+    
 }
 
-.legenda{
+.nome{
     display: flex;
-    margin:.5rem;
+    font-size: 1.5rem ;
+    margin:0.1rem;
 }
 
-hu{
+u{
+    display: flex;
     font-size: 1.5rem ;
+}
+
+.selecione{
+    display: flex;
+    font-size: 1.5rem ;
+    margin:0.1rem;
+}
+
+.descricao{ 
+    display: flex;
+    font-size: 1.5rem ;
+    margin:0.5rem;
+}
+
+.categoria{
+    display: flex;
+    font-size: 1.5rem ;
+    margin:0.5rem;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.icone{
+    display: flex;
+    max-width: 5%;
+    max-height: 5%;
 }
 
 footer{
     display: flex;
+    font-size: 1.3rem;
     margin:1rem;
     flex-direction: row;
     justify-content: space-evenly;
     background-color: rgb(218, 218, 218);
 }
 
-a{
-    margin: .5rem;
-}
-
-p{
-    margin: .5rem;
+.a{
+    margin: 1rem;
 }

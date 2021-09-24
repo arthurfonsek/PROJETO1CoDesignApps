@@ -25,12 +25,15 @@ header{
 
 }
 .mapa{
-    max-width: 50%;
-    max-height: 50%;
+    flex-shrink: 1;
+    max-width: 60%;
+    
+    
 }
 .onde{
     flex-direction: column;
     align-content: normal;
+    flex-grow: 1;
 }
 main {
     display: flex;
@@ -46,6 +49,7 @@ main {
 
 figure{
 display: flex;
+flex-direction: row;
 background-color: rgb(218, 218, 218);
 
 }

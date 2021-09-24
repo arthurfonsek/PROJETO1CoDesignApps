@@ -92,6 +92,8 @@ p{
 .mapa {
     max-width: 50%;
 	height: auto;
+    min-width: 35%;
+    min-height: auto;
 }
 
 .descricao{
@@ -118,4 +120,9 @@ strong{
 
 .local {
     flex-grow: 2;
+}
+
+.icons {
+    max-width: 50%;
+	height: auto;
 }
