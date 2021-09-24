@@ -43,7 +43,14 @@ main {
     justify-content: center;
     align-items: center;
     border: .1rem solid black;
-    font-size: 1.5rem;
+    height:3rem;
+    background-color:  white;
+}
+
+.tipo1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
     height:3rem;
     background-color:  white;
 }
@@ -55,8 +62,8 @@ main {
 
 .voltar{
     justify-content: left;
-    max-height: 9%;
-    max-width: 9%;
+    max-height: 25%;
+    max-width: 25%;
 }
 
 a{
