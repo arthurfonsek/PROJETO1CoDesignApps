@@ -3,23 +3,25 @@
     <head>
         <title>Busker</title>
         <meta charset="UTF-8">
+        <link rel = 'Stylesheet' href = 'reset.css'>
+        <link rel = 'Stylesheet' href = 'tela1.css'>
     </head>
     <body>
         <header>
-            <img src="img/menu.png" alt="botão de menu">
+            <img class="menu" src="img/menu.png" alt="botão de menu">
             <h1>
                 Busker™
             </h1>
         </header>
         <main>
-            <h2><u>Feed</u></h2> 
-            <h3> @cecília gerou evento </h3>
+            <h2 class="Feed"><u>Feed</u></h2> 
+            <h3 class="title"> @cecília gerou evento </h3>
             <figure>
-                <img src="img/exemplo_mapa.png" alt="mapa_evento">
-                <br>
-                <strong> Onde? </strong>
-                <br>
-                <strong>Avenida Paulista, 37</strong>
+                <img class="mapa" src="img/exemplo_mapa.png" alt="mapa_evento">
+                <b class="onde">
+                    <p> Onde? </p>
+                    <p>Avenida Paulista, 37</p>
+                </b>
             </figure>
             <ul>
             <a href="curtidas.html">
@@ -37,6 +39,7 @@
                 <li>Ajuda (?)</li>
             </a>
             </ul>
+            <footer>
             <a href="tela_comunidade.html">
                 <strong>Criar comunidade</strong>
             </a>
@@ -50,6 +53,7 @@
             <a href="tela_evento.html">
                 <strong>Divulgar evento</strong>
             </a>
+            </footer>
         </main>
     </body>
 </html>

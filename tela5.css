@@ -24,7 +24,14 @@ header{
     background-color:  orange;
 
 }
-
+.mapa{
+    max-width: 50%;
+    max-height: 50%;
+}
+.onde{
+    flex-direction: column;
+    align-content: normal;
+}
 main {
     display: flex;
     flex-direction: column;
@@ -39,18 +46,9 @@ main {
 
 figure{
 display: flex;
-justify-content: center;
 background-color: rgb(218, 218, 218);
 
 }
-
-.video {
-    border: 0.4rem solid black;
-    position: relative;
-    max-width: 50%;
-    max-height: 50%;
-}
-
 ul{
     display: flex;
     margin: .5rem;
