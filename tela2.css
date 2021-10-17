@@ -10,10 +10,11 @@ header{
     display: flex;
     flex-direction: row;
     height: 4rem;
-    border-bottom: .1rem solid black;
+    border-bottom: .1rem solid rgb(0, 0, 0);
     justify-content: center;
     align-items: center;
     font-size: 3rem;
+    font-family: 'DM Serif Text', serif;
 }
 
 main {
@@ -34,17 +35,17 @@ main {
     align-items: center;
     font-size: 2rem;
     height:3rem;
-    background-color:  orange;
-
+    background-color: rgb(255,165,0);
+    font-family: 'DM Serif Text', serif;
 }
 
 .tipo{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: .1rem solid black;
+    border: .1rem solid rgb(0, 0, 0);
     height:3rem;
-    background-color:  white;
+    background-color:  rgb(255,255,255);
 }
 
 .tipo1{
@@ -52,7 +53,7 @@ main {
     justify-content: left;
     align-items: center;
     height:3rem;
-    background-color:  white;
+    background-color:  rgb(255,255,255);
 }
 
 .imagem{
