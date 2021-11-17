@@ -1,0 +1,9 @@
+- Renomear as páginas(tela_inicial.html em vez de tela1.html)
+- Consolidar os arquivos .css em um style.css
+- Adicionar botão de volta em todas as páginas(canto superior esquerdo fora da tela inicial)
+- Criar botão "criar" no fundo de todas as telas
+    - Quando clicar no botão, abrir prompt sobre qual tipo de conteúdo quer criar(post, comunidade, evento)
+- Reorganizar tela inicial para ficar menos confusa
+- Centralizar melhor alguns elementos e adicionar padding
+
+- (Difícil) Criar feed "de verdade", que muda quando o usuário cria um post/evento. Além disso, embaralha alguns posts pré-feitos para imitar posts de verdade
