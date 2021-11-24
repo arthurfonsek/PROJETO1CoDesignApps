@@ -1,6 +1,6 @@
-- Renomear as páginas(tela_inicial.html em vez de tela1.html)
-- Consolidar os arquivos .css em um style.css
-- Adicionar botão de volta em todas as páginas(canto superior esquerdo fora da tela inicial)
+- Renomear as páginas(tela_inicial.html em vez de tela1.html) ok
+- Consolidar os arquivos .css em um style.css 
+- Adicionar botão de volta em todas as páginas(canto superior esquerdo fora da tela inicial) ok
 - Criar botão "criar" no fundo de todas as telas
     - Quando clicar no botão, abrir prompt sobre qual tipo de conteúdo quer criar(post, comunidade, evento)
 - Reorganizar tela inicial para ficar menos confusa
