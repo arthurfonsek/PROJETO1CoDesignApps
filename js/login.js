@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     botao.addEventListener('click', function(event){
         usuario = document.querySelectorAll('input')[0].value
         if(usuario == ""){
-            usuario = "João Default"
+            usuario = "João_Default"
         }
         dias = ["Domingo","Segunda","Terça","Quarta","Quinta","Sexta","Sábado"]
         meses = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"]
