@@ -1,7 +1,5 @@
-- Renomear as páginas(tela_inicial.html em vez de tela1.html) ok
-- Consolidar os arquivos .css em um style.css 
-- Adicionar botão de volta em todas as páginas(canto superior esquerdo fora da tela inicial) ok
 - Reorganizar tela inicial para ficar menos confusa
 - Centralizar melhor alguns elementos e adicionar padding
 
 - (Difícil) Criar feed "de verdade", que muda quando o usuário cria um post/evento. Além disso, embaralha alguns posts pré-feitos para imitar posts de verdade
+- Criar sistema de login e página do perfil simples

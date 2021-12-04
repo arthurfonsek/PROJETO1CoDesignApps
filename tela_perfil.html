@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-    <html lang="pt-BR">
+<html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Busker</title>
         <link rel = 'Stylesheet' href = 'css/reset.css'>
-        <link rel = 'Stylesheet' href = 'css/tela_criar.css'>
+        <link rel = 'Stylesheet' href = 'css/tela_perfil.css'>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Roboto&display=swap" rel="stylesheet">
-        <script src="js/java.js"></script>
+        <script src="js/perfil.js"></script> 
     </head>
     <body>
         <header>
@@ -21,19 +21,27 @@
             </a>
         </header>
         <main>
-            <h2 class= 'tipopost'><u>Selecione o tipo do post: </u></h2> 
-            <a class='tipo' href="tela_inicial.html">
-                <img class = 'imagem' src ='img/IMAGEMTELA2.png' alt='Botão para post de imagem'>
-            </a>
+            <img id="foto" src="img/perfil.png" alt="Foto de perfil">
+            <div class="descricao">
+                <p id="nome">Nome</p>
+                <p>Conta criada em:</p>
+                <p id="data">Data</p>
+            </div>
+        </main>
 
-            <a class='tipo' href="tela_post.html">
-                <img class = 'imagem' src ='img/VIDEOTELA2.png' alt='Botão para post de vídeo'>
-            </a>
-
-            <a class='tipo' href="">
-                <img class = 'imagem' src ='img/MUSICATELA2.png' alt='Botão para post de música'>
+        <footer>
+            <a href="tela_criar_comunidade.html">
+                <strong>Criar comunidade</strong>
             </a>
             
-        </main>
+            <a href="tela_criar.html">
+                <strong>Fazer um post</strong>
+            </a>
+               
+            <a href="tela_criar_evento.html">
+                <strong>Divulgar evento</strong>
+            </a>
+        </footer>
+
     </body>
 </html>
