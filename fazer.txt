@@ -1,5 +1,7 @@
 - Reorganizar tela inicial para ficar menos confusa
 - Centralizar melhor alguns elementos e adicionar padding
 
-- (Difícil) Criar feed "de verdade", que muda quando o usuário cria um post/evento. Além disso, embaralha alguns posts pré-feitos para imitar posts de verdade
-- Criar sistema de login e página do perfil simples
+- Adicionar nome do usuário aos posts criados
+- Reorganizar tela de criar eventos(meio confusa)
+- Redesenhar tela de perfil(está meio vazia)
+- Adicionar botão de perfil a todas a telas
