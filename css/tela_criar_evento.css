@@ -11,11 +11,10 @@ header{
     flex-direction: row;
     height: 4rem;
     border-bottom: .1rem solid rgb(0, 0, 0);
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     font-size: 3rem;
     font-family: 'DM Serif Text', serif;
-
 }
 .Feed{
     display: flex;
