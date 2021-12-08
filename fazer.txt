@@ -1,7 +1,0 @@
-- Reorganizar tela inicial para ficar menos confusa
-- Centralizar melhor alguns elementos e adicionar padding
-
-- Adicionar nome do usuário aos posts criados
-- Reorganizar tela de criar eventos(meio confusa)
-- Redesenhar tela de perfil(está meio vazia)
-- Adicionar botão de perfil a todas a telas
