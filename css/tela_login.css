@@ -1,0 +1,84 @@
+.menu{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 4rem;
+    width: 4rem;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    border-bottom: .1rem solid rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'DM Serif Text', serif;
+    background-color: rgb(255, 255, 255);
+}
+
+body{
+    background-color: rgb(255, 165, 0);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 100%;
+    background-color: rgb(255, 165, 0);
+}
+
+.box{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: .1rem solid black;
+    border-radius: 1rem;
+    height: 20rem;
+    width: 30%;
+    background-color: rgb(228, 228, 228);
+}
+
+.Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    height:3rem;
+    width: 100%;
+    background-color:  rgb(255, 165, 0);
+    font-family: 'DM Serif Text', serif;
+}
+
+h2{
+    border: 0.25rem solid black
+}
+
+h3{
+
+    margin: 2rem;
+    font-size: 180%;
+    margin-top: 1rem;
+}
+
+input{
+    height: 2rem;
+    width: 50%;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 100%;
+
+}
+button{
+    margin: 1rem;
+    height: 1.5rem;
+    width: 50%;
+}
